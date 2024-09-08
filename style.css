@@ -36,11 +36,22 @@ a{
     height: 100vh;
 }
 .text{
+    font-family: "Poppins", sans-serif;
     position: absolute;
     margin-top: 30vh;
     margin-left: 10vw;
     color: #fff;
 }
+.text h1{
+    font-size: 2.8rem;
+    color: #3877ff;
+}
+.text h1::first-letter{
+    font-size: 5rem;
+}
 #about{
     margin-right: 60vw;
+    font-size:0.9rem;
+    font-weight:600;
+    word-spacing: 2px;
 }
