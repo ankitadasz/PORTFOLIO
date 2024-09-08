@@ -60,7 +60,7 @@ a {
 }
 
 .rightcontainer {
-    background:linear-gradient(-45deg,#3877ff,#262525);
+    background:linear-gradient(-45deg,#3877ff,#262525 70%);
     width: 30vw;
     height: 100vh;
 }
@@ -166,4 +166,10 @@ a {
    background-size: 100%;
    background-repeat: no-repeat;
     width: 25rem;
+    box-shadow: 
+    0 0 1rem #ffff ,
+    inset 0 0 1rem #ffff,
+    0 0 2rem #3877ff,
+    inset 0 0 2rem #3877ff
+    ;
 }
