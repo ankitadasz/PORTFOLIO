@@ -7,14 +7,30 @@
 a{
     text-decoration: none;
 }
+.container{
+    display: flex;
+}
 .navbar {
-    background-color: rgb(250, 38, 38);
     height: 17vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 3vw;
+    position: fixed;
 }
 #nav{
-
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #ffffff;
+}
+.leftcontainer{
+    background-color: #262525;
+    width: 70vw;
+    height: 100vh;
+}
+.rightcontainer{
+    background-color: #3877ff;
+    width: 30vw;
+    height: 100vh;
 }
