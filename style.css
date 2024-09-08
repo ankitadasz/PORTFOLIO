@@ -38,13 +38,13 @@ a{
 .text{
     font-family: "Poppins", sans-serif;
     position: absolute;
-    margin-top: 30vh;
+    margin-top: 25vh;
     margin-left: 10vw;
     color: #fff;
 }
 .text h1{
     font-size: 2.8rem;
-    color: #3877ff;
+    color: #00BCEF;
 }
 .text h1::first-letter{
     font-size: 5rem;
@@ -54,4 +54,12 @@ a{
     font-size:0.9rem;
     font-weight:600;
     word-spacing: 2px;
+}
+#name{
+    font-size: 1rem;
+}
+#name span{
+    color: #00BCEF;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
