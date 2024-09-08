@@ -106,23 +106,26 @@ a {
     display: flex;
     gap: 20px;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
 }
 
-#project {
+#project ,#hire:hover{
     padding: 10px 20px;
     background-color: transparent;
     color: #00BCEF;
     border: 1px solid #00BCEF;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-#hire{
+#hire,#project:hover{
     color: black;
     font-weight: 600;
     background-color: #00BCEF;
     padding: 10px 20px;
     border-radius: 5px;
     border: 1px solid black;
+    cursor: pointer;
 }
 .icons{
     margin-top: 10vh;
@@ -140,4 +143,8 @@ a {
 #icn:hover {
     transform: scale(1.6); /* Scale up the icon on hover */
     color:#00BCEF;/* Change the color on hover */
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
