@@ -144,7 +144,24 @@ a {
     transform: scale(1.5); /* Scale up the icon on hover */
     color:#00BCEF;/* Change the color on hover */
     cursor: pointer;
-    background: linear-gradient(#fff,#3877ff);
+    background: linear-gradient(#fff,#00BCEF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.design .circle{
+    aspect-ratio: 1; /*it will make the height same as the width of the circle, when you will change the width the height will automatically change*/
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;/*x axis and y axis*/
+}
+
+.circle:nth-child(1){
+    background-color: red;
+    width: 38rem;
+}
+.circle:nth-child(2){
+   background-color: rgb(86, 91, 114);
+    width: 30rem;
 }
