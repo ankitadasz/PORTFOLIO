@@ -124,3 +124,20 @@ a {
     border-radius: 5px;
     border: 1px solid black;
 }
+.icons{
+    margin-top: 10vh;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 25vw ;
+    gap: 35px;
+}
+#icn{
+        font-size: 1.5rem;
+        color: #ffffff;
+        transition: transform 0.3s ease, color 0.5s ease;
+    
+}
+#icn:hover {
+    transform: scale(1.6); /* Scale up the icon on hover */
+    color:#00BCEF;/* Change the color on hover */
+}
