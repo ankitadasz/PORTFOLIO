@@ -35,3 +35,12 @@ a{
     width: 30vw;
     height: 100vh;
 }
+.text{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 10vw;
+    color: #fff;
+}
+#about{
+    margin-right: 60vw;
+}
