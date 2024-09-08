@@ -141,7 +141,7 @@ a {
     
 }
 #icn:hover {
-    transform: scale(1.6); /* Scale up the icon on hover */
+    transform: scale(1.5); /* Scale up the icon on hover */
     color:#00BCEF;/* Change the color on hover */
     cursor: pointer;
     background: linear-gradient(#fff,#3877ff);
