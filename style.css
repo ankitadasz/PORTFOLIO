@@ -162,6 +162,8 @@ a {
     width: 30rem;
 }
 .circle:nth-child(2){
-   background-color: rgb(86, 91, 114);
+   background-image: url(image.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
     width: 25rem;
 }
