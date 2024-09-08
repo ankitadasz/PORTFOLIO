@@ -60,7 +60,7 @@ a {
 }
 
 .rightcontainer {
-    background-color: #3877ff;
+    background:linear-gradient(-45deg,#3877ff,#262525);
     width: 30vw;
     height: 100vh;
 }
